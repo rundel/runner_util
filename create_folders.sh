@@ -3,8 +3,8 @@
 START=1
 END=4
 
-VERSION=2.296.0
-SHA=d1fa9768ef81de108db24645cba174096dfb59b4dbb883016192384827f29e43
+VERSION=2.298.2
+SHA=0fb116f0d16ac75bcafa68c8db7c816f36688d3674266fe65139eefec3a9eb04
 
 curl -o actions-runner-linux-x64.tar.gz -L https://github.com/actions/runner/releases/download/v$VERSION/actions-runner-linux-x64-$VERSION.tar.gz
 
