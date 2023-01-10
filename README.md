@@ -3,7 +3,7 @@
 * Setup a machine with Research Toolkits - https://rtoolkits.web.duke.edu/
     * Create a new project
     * Add RAPID service
-        * Recommend Linux Ubuntu Server 20.04
+        * Recommend Linux Ubuntu Server 22.04
         * Choose VM size - 2-4 cores, probably 1 per runner is a good idea
     * Install docker - `sudo apt install docker.io`
     * Start docker - `sudo service docker start`
