@@ -5,10 +5,13 @@
     * Add RAPID service
         * Recommend Linux Ubuntu Server 22.04
         * Choose VM size - 2-4 cores, probably 1 per runner is a good idea
+
+You might need to wait a bit for your VM to be created.
+
+* Connect to VM via ssh into your VM with `ssh rapiduser@[Hostname of VM]` and with the password provided
     * Install docker - `sudo apt install docker.io`
     * Start docker - `sudo service docker start`
     * Add user account to docker group - `sudo usermod -aG docker $USER`
-
 
 ## Add Runners
 
@@ -25,7 +28,7 @@
       sudo ./svc.sh status
       ```
     * Runner should show on the Runners page as idle
-    * repeat for additional runners, create separate folder for each, e.g. `runner1`, `runner2`, etc.
+    * Repeat for additional runners, create separate folder for each, e.g. `runner1`, `runner2`, etc.
         * Each runner will only differ in the token used
 
 ### Helper scripts
