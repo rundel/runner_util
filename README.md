@@ -43,7 +43,7 @@ You might need to wait a bit for your VM to be created.
 * Check that folders with the name `actions-runner*` have been created
 * Manually, change into each `action-runner*` directory and run the config command given by the "Create self-hosted runner" step
    ```
-   ./config.sh --url https://github.com/sta523-fa22 --token ***
+   ../runner_util/config.sh <URL> <TOKEN>
    ```
    * Refresh the page to generate new tokens for each directory
    * Default options for each config step are fine other than picking different names for each runner
